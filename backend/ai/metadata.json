@@ -1,0 +1,38 @@
+{
+  "model_type": "RandomForestRegressor",
+  "algorithm": "Scikit-Learn Ensemble",
+  "features": [
+    "day_of_week",
+    "hour",
+    "is_weekend",
+    "is_exam_period",
+    "floor",
+    "area_type"
+  ],
+  "target": "occupancy_rate_percentage",
+  "metrics": {
+    "rmse": 4.18,
+    "r2_score": 0.9737
+  },
+  "mappings": {
+    "days": [
+      "Pazartesi",
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma",
+      "Cumartesi",
+      "Pazar"
+    ],
+    "area_types": {
+      "0": "Pencere önü",
+      "1": "Sessiz çalışma",
+      "2": "Grup çalışma"
+    },
+    "floors": [
+      1,
+      2
+    ]
+  },
+  "trained_date": "2026-10-26"
+}

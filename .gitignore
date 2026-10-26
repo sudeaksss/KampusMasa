@@ -1,0 +1,47 @@
+# Dependencies & Build artifacts
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Environment & Secret Protection (Never commit credentials)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# macOS & OS junk
+.DS_Store
+**/.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Internal agent configs
+.agents/
+
+# Python caches
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
