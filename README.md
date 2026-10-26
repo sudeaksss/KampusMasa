@@ -128,8 +128,14 @@ Model olarak Scikit-Learn çatısı altında **RandomForestRegressor (Topluluk �
 
 ## Demo Video ve Ekran Görüntüleri
 
-- **Demo Tanıtım Videosu:** `[Video bağlantısı buraya eklenecektir - YouTube / Loom]`
-- **Sistem Ekran Görüntüleri:**
-  - *Masa Haritası ve Rezervasyon:* Ön yüz üzerinden anlık boş/dolu masaların görünümü ve QR kod check-in süreci.
-  - *Akıllı Asistan ve Doluluk Simülasyonu:* Saatlik tahmin çubukları, alan bazlı doluluk oranları ve soru-cevap danışmanı.
-  - *Kütüphane Topluluk Panosu:* Kayıp eşya ve not paylaşım alanı.
+### Proje Tanıtım ve Demo Videosu
+Sistemin tüm bileşenlerini (Masa Haritası, QR Check-in, Akıllı Asistan Scikit-Learn doluluk tahmini, Kütüphane Danışmanı, Sınav Takvimi ve Pano) detaylıca anlatan sesli tanıtım videosunu aşağıdaki bağlantıdan yüksek çözünürlükte izleyebilirsiniz:
+
+- **Demo Videosu Bağlantısı:** [KampusMasa Sistem Tanıtım Videosunu İzle (Google Drive)](https://drive.google.com/file/d/1ifc9cm3rot8DiQw3nCLOUWYNozfkDtCb/view?usp=drive_link)
+
+### Sistem Bileşenleri ve Arayüz Akışı
+- **Masa Haritası ve Rezervasyon:** Ön yüz üzerinden anlık boş/dolu masaların renk kodlu görünümü, priz ve sessiz alan etiketleri ile QR kod check-in süreci.
+- **Akıllı Asistan ve Doluluk Simülasyonu:** Scikit-Learn modeli ile saatlik tahmin çubukları, doluluk yüzdesi, yoğunluk seviyesi ve doğal dilli soru-cevap kütüphane danışmanı.
+- **Günün Kazananı (Liderlik Tablosu):** Öğrencilerin odaklanma süreleri ve puan tablosu ile oyunlaştırma mekanikleri.
+- **Sınav Takvimi ve Kesintisiz Geri Sayım:** Yaklaşan vize/final tarihleri ve sol menüde her ekranda sabit kalan canlı sınav geri sayım sayacı.
+- **Kütüphane Topluluk Panosu:** Kayıp eşya, duyuru ve ders notu yardımlaşma alanı.

@@ -107,7 +107,9 @@
       "checkedInAt": null,
       "estimatedLeaveAt": null,
       "receiptCode": null,
-      "breakStartedAt": null
+      "breakStartedAt": null,
+      "reservationGroupSize": null,
+      "reservationGroupId": null
     },
     {
       "id": "merkez-kutuphanesi:1:S-04",
@@ -1263,10 +1265,34 @@
       "area": "Pencere önü",
       "startedAt": 1793036869009,
       "endedAt": 1793036872577
+    },
+    {
+      "studentNumber": "359",
+      "seatId": "merkez-kutuphanesi:1:P-02",
+      "locationId": "merkez-kutuphanesi",
+      "area": "Pencere önü",
+      "startedAt": 1793042974735,
+      "endedAt": 1793042994933
+    },
+    {
+      "studentNumber": "359",
+      "seatId": "merkez-kutuphanesi:1:S-03",
+      "locationId": "merkez-kutuphanesi",
+      "area": "Sessiz salon",
+      "startedAt": 1793043735488,
+      "endedAt": 1793043759558
+    },
+    {
+      "studentNumber": "359",
+      "seatId": "merkez-kutuphanesi:1:P-02",
+      "locationId": "merkez-kutuphanesi",
+      "area": "Pencere önü",
+      "startedAt": 1793044127031,
+      "endedAt": 1793044137671
     }
   ],
   "breakReports": [],
   "weeklyGoals": {
-    "359": 5.0
+    "359": 6.0
   }
 }
